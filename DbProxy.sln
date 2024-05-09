@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbProxyTest", "DbProxyTest\DbProxyTest.csproj", "{59E5E6AD-FBF7-4A5D-BC88-602291DC357A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbProxy", "DbProxy\DbProxy.csproj", "{21722AA6-942C-45A7-ABEA-AAC4EC4D0C31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59E5E6AD-FBF7-4A5D-BC88-602291DC357A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E5E6AD-FBF7-4A5D-BC88-602291DC357A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E5E6AD-FBF7-4A5D-BC88-602291DC357A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E5E6AD-FBF7-4A5D-BC88-602291DC357A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21722AA6-942C-45A7-ABEA-AAC4EC4D0C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21722AA6-942C-45A7-ABEA-AAC4EC4D0C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21722AA6-942C-45A7-ABEA-AAC4EC4D0C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21722AA6-942C-45A7-ABEA-AAC4EC4D0C31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1306756E-70AC-42A8-810E-882B4EFAD736}
+	EndGlobalSection
+EndGlobal
