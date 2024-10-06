@@ -23,7 +23,7 @@ public class DbTableCrud
         this.dbProxy = dbProxy;
         this.connection = dbProxy.connection;
         this.command = dbProxy.command;
-        this.command.CommandText = "SELECT * FROM " + tableName;
+        this.command.CommandText = $"SELECT * FROM [{tableName}]";
         this.command.Connection = this.connection;
         this.adapter = dbProxy.adapter;
         this.commandBuilder = dbProxy.commandBuilder;
@@ -35,7 +35,7 @@ public class DbTableCrud
         this.dbProxy = dbProxy;
         this.connection = dbProxy.connection;
         this.command = dbProxy.command;
-        this.command.CommandText = "SELECT * FROM " + tableName;
+        this.command.CommandText = $"SELECT * FROM [{tableName}]";
         this.command.Connection = this.connection;
         this.adapter = dbProxy.adapter;
         this.commandBuilder = dbProxy.commandBuilder;

@@ -10,6 +10,8 @@ namespace DbProxyTest
         {
             Console.WriteLine("Hello, World from DbProxy!");
             Console.WriteLine();
+            // Print current directory
+            Console.WriteLine("Current directory: " + Environment.CurrentDirectory);
 
             IDbProxy dbProxy = new SqlServerProxy(Secrets.HEMS_Econ_connectionString);
 
