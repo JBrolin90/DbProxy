@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbProxyTest", "DbProxyTest\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbProxy", "DbProxy\DbProxy.csproj", "{21722AA6-942C-45A7-ABEA-AAC4EC4D0C31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login", "Login\Login.csproj", "{C5F75B9E-64DC-4196-867B-A5D768D81540}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{21722AA6-942C-45A7-ABEA-AAC4EC4D0C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21722AA6-942C-45A7-ABEA-AAC4EC4D0C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21722AA6-942C-45A7-ABEA-AAC4EC4D0C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F75B9E-64DC-4196-867B-A5D768D81540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F75B9E-64DC-4196-867B-A5D768D81540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F75B9E-64DC-4196-867B-A5D768D81540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F75B9E-64DC-4196-867B-A5D768D81540}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

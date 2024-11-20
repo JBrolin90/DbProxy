@@ -1,0 +1,22 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        xmlns:login="using:Login"
+        x:Class="Login.LoginWindow"
+        x:DataType="login:ViewModels.LoginViewModel"
+        Title="Database server Login" Width="400" Height="500">
+    <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto">
+        <TextBlock Text="Server:" Grid.Row="0" Margin="10"/>
+        <TextBox Text="{Binding Server}" Grid.Row="0" Margin="100,10,10,10" Watermark="IP or DNS name"/>
+        <TextBlock Text="Database:" Grid.Row="1" Margin="10"/>
+        <TextBox Text="{Binding Database}" Grid.Row="1" Margin="100,10,10,10"/>
+        <TextBlock Text="Username:" Grid.Row="2" Margin="10"/>
+        <TextBox Text="{Binding Username}" Grid.Row="2" Margin="100,10,10,10"/>
+        <TextBlock Text="Password:" Grid.Row="3" Margin="10"/>
+        <TextBox Text="{Binding Password}" Grid.Row="3" Margin="100,10,10,10"/>
+        <Button Content="Login" Command="{Binding LoginCommand}" Grid.Row="4" Margin="10" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"/>
+        <TextBlock Text="{Binding Message}" Grid.Row="5" Margin="10"/>
+    </Grid>
+</Window>
